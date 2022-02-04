@@ -41,3 +41,7 @@ group by rollup(exam_no,course_Name)
 select exam_no,course_name,avg (result) as 平均分 from result_info 
 group by cube(exam_no,course_Name)
 在groupby基础上 对exam_no,course_Name进行分组计算总和（不对所有数据合计）
+
+
+
+
